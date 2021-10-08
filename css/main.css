@@ -1,0 +1,13 @@
+.song-artwork {
+    width: 100px;
+    float: left;
+}
+
+.song-detail-container {
+    float: left;
+    margin-left: 10px;
+}
+
+.song-title {
+    font-weight: bold;
+}

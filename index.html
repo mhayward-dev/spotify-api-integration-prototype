@@ -4,11 +4,22 @@
 <head>
     <title>Spotify API Tests</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
+    <h1>Currently playing:</h1>
 
-    
+    <div class="song-not-playing">
+        <p>Song is not playing</p>
+    </div>
+    <div class="song-is-playing" style="display: none;">
+        <img class="song-artwork" src="#" />
+        <div class="song-detail-container">
+            <div class="song-title"></div>
+            <div><span class="song-artist"></span> - <span class="song-album"></span></div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="js/spotify-helper.js"></script>
